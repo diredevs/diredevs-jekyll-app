@@ -1,0 +1,16 @@
+---
+layout: default
+title: Your New Jekyll Site
+---
+<ul class="posts">
+  {% for post in site.posts %}
+    <li>
+      <div class="post">
+        <h4>{{ post.title }}</h4>
+        <small>POSTED IN {{ post.date | date: "%Y.%m.%d" }} BY {{ post.author }}</small>
+        <p class="post__intro">{{ post.intro }}</p>
+        <a class="button" href="{{ post.url }}">CONTINUE READING</a>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
