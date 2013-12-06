@@ -7,7 +7,7 @@ This project is the Diredevs Jekyll Project. In this repo, you'll find a yeoman 
 
 #### Why two repositories seperated?
 
-To keep things more clear. This repo should aim the website's development. The other one is the result of a build of these project.
+To keep things more clear. This repo should aim the website's development. The other one is the result of a build of this project.
 
 #### How to post
 
